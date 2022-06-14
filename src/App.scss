@@ -9,7 +9,7 @@ body{
 }
 
 $light: #ffffff;
-$gray: #c4ccde;
+$gray: #e7e9eb;
 
 .container-navbar{
   background-color: $light;
@@ -28,6 +28,9 @@ $gray: #c4ccde;
       margin-bottom: 1rem;
       a{
         text-decoration: none;
+        &.active{
+          background-color: $gray;
+        }
       }
     }
   }
