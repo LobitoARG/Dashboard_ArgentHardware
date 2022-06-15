@@ -14,15 +14,16 @@ $gray: #e7e9eb;
 .container-navbar{
   background-color: $light;
   padding: 1rem 2rem;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid;
   display: flex;
   justify-content: end;
+  animation: cambiarcolor 3s infinite;
 }
 
 .container-sidebar{
+  animation: cambiarcolor 3s infinite;
   width: 15rem;
-  height: 100vh;
-  border-right: 1px solid;
+  border-right: 2px solid;
   ul{
     list-style: none;
     padding: 1rem 2rem;
@@ -61,7 +62,9 @@ $gray: #e7e9eb;
 
 #card1, #card2{
   margin: 2rem;
-  border: grey 1px solid;
+  border: grey 1.5px solid;
+  border-radius: 2%;
+  animation: cambiarcolor 3s infinite;
   
 }
 #card1:hover, #card2:hover{
@@ -101,3 +104,24 @@ $gray: #e7e9eb;
 .titulo-tablas{
   margin-top: 1rem;
 }
+
+.container-img-logo{
+  display: flex;
+  justify-content: center;
+}
+
+
+@keyframes color-change {
+  0% { color: black; }
+  50% { color: blue; }
+  100% { color: #0066cc; }
+}
+
+@keyframes cambiarcolor {
+  50% {border-color: #0066cc;}
+}
+@keyframes cambiartext {
+  90%{color: #0066cc}
+}
+
+

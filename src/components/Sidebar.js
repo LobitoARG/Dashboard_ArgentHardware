@@ -1,12 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import * as FaIcons from 'react-icons/fa';
+import logoE from './logo.png'
 
 
 function Sidebar (){
     return(
         <div className='container-sidebar bg-light'>
-        <h2 className='text-dark px-2'>DASHBOARD</h2>
+        <h2 className='px-2' id='text-title-side'>DASHBOARD</h2>
+        <div className='container-img-logo'>
+        <img src={logoE} alt='logo' width={100}/>
+        </div>
         <ul>
             <li>
                 <NavLink to="/" exact className='text-dark rounded py-2 w-100 d-inline-block px-3' activeclassname='active'><FaIcons.FaHome className='me-2'/> Inicio </NavLink>
