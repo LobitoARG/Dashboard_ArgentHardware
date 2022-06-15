@@ -14,12 +14,14 @@ $gray: #e7e9eb;
 .container-navbar{
   background-color: $light;
   padding: 1rem 2rem;
-  border-bottom: 1px solid $gray;
+  border-bottom: 2px solid grey;
+  display: flex;
+  justify-content: end;
 }
 
 .container-sidebar{
-  width: 14rem;
-  height: calc(100vh - 52px);
+  width: 15rem;
+  height: 100vh;
   border-right: 1px solid;
   ul{
     list-style: none;
@@ -38,4 +40,64 @@ $gray: #e7e9eb;
 
 .flex{
   display: flex;
+}
+
+.separador{
+  border-right: solid 2px red;
+  margin-right: 10px;
+}
+
+.container-last-user{
+  border: solid 2px $gray;
+  width: 50vw;
+  height: 50vh;
+}
+
+.container-last-product{
+  border: solid 2px $gray;
+  width: 50vw;
+  height: 50vh;
+}
+
+#card1, #card2{
+  margin: 2rem;
+  border: grey 1px solid;
+  
+}
+#card1:hover, #card2:hover{
+  box-shadow: 5px 10px 8px #888888; 
+}
+
+.container-categorias{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-card{
+  margin: auto;
+  
+}
+
+.nombre-card{
+  margin: auto;
+  
+}
+
+.container-cards-totals{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#card-productos-1{
+  width: 30%;
+}
+
+#card-productos-1:hover,#card-productos-2:hover, #card-productos-3:hover {
+  box-shadow: 5px 10px 8px #888888; 
+}
+
+.titulo-tablas{
+  margin-top: 1rem;
 }

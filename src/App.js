@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Users from './pages/Users';
+import Categories from './pages/Categories';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" exact element={<Home/>}/>
         <Route path="/products" exact element={<Products/>}/>
         <Route path="/users" exact element={<Users/>}/>
+        <Route path="/categories" exact element={<Categories/>}/>
         </Routes>
       </div>
       </div>
