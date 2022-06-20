@@ -24,6 +24,7 @@ function ProductDetail(){
         <>	
         <div className="card" id="card1">
             <h2 className="nombre-card">{productDetailing.nombre}</h2>
+            <img src={`${process.env.PUBLIC_URL}/assets/img/${productDetailing.tipo}/${productDetailing.imagen}`} alt='img_user' className='all-imagenes-detail'></img>
             <div className="card-body">
             <h5 className="card-title">Datos del producto Nro: {productDetailing.id_producto}</h5> 
             <p className="card-text">Nombre: {productDetailing.nombre}</p>

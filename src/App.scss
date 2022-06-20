@@ -111,6 +111,20 @@ $gray: #e7e9eb;
   justify-content: center;
 }
 
+#button-next{
+  margin-right: 10px;
+}
+
+.all-imagenes{
+  width: 55%;
+  margin: auto;
+}
+
+.all-imagenes-detail{
+  width: 24%;
+  margin: auto;
+}
+
 
 @keyframes color-change {
   0% { color: black; }

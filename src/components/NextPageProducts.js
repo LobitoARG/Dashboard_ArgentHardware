@@ -47,8 +47,8 @@ class ProductsInDB2 extends Component{
             }
 
             </table>
-            <div>
-            <button className="btn btn-outline-primary">Siguiente Pagina</button>
+            <div className='container-botones-next'>
+            <button className="btn btn-outline-primary" id='button-next'>Siguiente Pagina</button>
             <NavLink to={'/products'}> 
             <button className="btn btn-outline-primary">Pagina Anterior</button>
             </NavLink>

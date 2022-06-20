@@ -48,7 +48,7 @@ class UsersInDB2 extends Component{
 
             </table>
             <div>
-            <button className="btn btn-outline-primary">Siguiente Pagina</button>
+            <button className="btn btn-outline-primary" id='button-next'>Siguiente Pagina</button>
             <NavLink to={'/users'}>  
             <button className="btn btn-outline-primary">Pagina Anterior</button>
             </NavLink>                                                                   

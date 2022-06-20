@@ -9,13 +9,8 @@ import ProductDetail from './components/ProductDetail';
 import NextPageProducts from './components/NextPageProducts'
 import NextPageUsers from './components/NextPageUsers'
 import Footer from './components/Footer';
-
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-//import Products from './pages/Products';
-//import Users from './pages/Users';
-//import Categories from './pages/Categories';
-
 
 
 function App() {
