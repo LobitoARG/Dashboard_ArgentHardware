@@ -18,8 +18,8 @@ class CategoriesInDB extends Component{
             return respuesta.json()
         })
         .then(info =>{
-            //console.log(gif);
-            this.setState({informacion: info.data})
+            console.log(info);
+            this.setState({informacion: info})
         })
         .catch(error=>console.log(error))
     }
